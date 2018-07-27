@@ -1,0 +1,33 @@
+$mavi: #3498db;
+$beyaz: #ffffff;
+$acik-siyah: #333333;
+.link {
+    color: $beyaz!important;
+    &:hover {
+        color: $acik-siyah!important;
+    }
+}
+
+
+.active {
+    color: $acik-siyah!important;
+}
+
+header {
+    background: $mavi;
+    .navbar-collapse {
+        flex-grow: 0;
+    }
+
+
+}
+
+.page-layout__viewport {
+    padding-top: 4rem;
+}
+
+.page-layout__nav-item--active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
